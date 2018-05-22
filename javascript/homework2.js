@@ -26,4 +26,4 @@ max = numbers.length;
 for (let i = 0; i < max; i +=1) {
   total += numbers[i];
 }
-console.log(total);
+console.log(`Сумма элементов ${total}`);
