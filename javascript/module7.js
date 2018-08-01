@@ -1,25 +1,4 @@
-  //
-  // Создайте функцию createPostCard(), которая
-  // создает и возвращает DOM-узел карточки поста.
-  //
-  // Разметка с классами есть на вкладке HTML.
 
-
-  // <div class="post">
-  //   <img class="post__image" src="http://via.placeholder.com/400x150" alt="post image">
-  //   <h2 class="post__title">Lorem ipsum dolor</h2>
-  //   <p class="post__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, nemo dignissimos ea temporibus voluptatem maiores maxime consequatur impedit nobis sunt similique voluptas accusamus consequuntur, qui modi nesciunt veritatis distinctio rem!</p>
-  //
-  //   <a class="button" href="#">Read more</a>
-  // </div>
-
-  // const post = createPostCard({
-  //   img: "https://placeimg.com/400/150/arch",
-  //   title: "Post title 1",
-  //   text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, nemo dignissimos ea temporibus voluptatem maiores maxime consequatur impedit nobis sunt similique voluptas accusamus consequuntur, qui modi nesciunt veritatis distinctio rem!",
-  //   link: 'link-1.com'
-  // });
-  // console.log(post);
 
   const posts = [
   {
