@@ -78,7 +78,7 @@ function resetAll() {
     time = setInterval(function(){
     isActive = true;
     const currentTime1 = Date.now();
-    const deltaTime1 = currentTime1 - startTime;
+    const deltaTime1 = currentTime1 - pauseTime;
     const timeSS2 = new Date(deltaTime1);
   timerString.textContent = getFormattedTime(timeSS2);
   btnStart.textContent = 'Pause';
