@@ -28,7 +28,7 @@ function resetAll() {
 
   function startTimer() {
     startTime = Date.now();
-    if (isActive) { console.log('stop');
+    if (isActive) {
       clearInterval(timerId);
       isActive = false;
       btnStart.textContent = 'Continue';
@@ -39,11 +39,9 @@ function resetAll() {
       timerId = setInterval(function() {
         let currentTime = Date.now();
         if (pauseTime > 0) {
-          console.log('2222222');
           timer = (currentTime - startTime) + pauseTime;
           console.log(timer);
         } else {
-          console.log('11111');
           timer = currentTime - startTime;
         };
         let a = new Date(timer);
