@@ -40,7 +40,6 @@ function resetAll() {
         let currentTime = Date.now();
         if (pauseTime > 0) {
           timer = (currentTime - startTime) + pauseTime;
-          console.log(timer);
         } else {
           timer = currentTime - startTime;
         };
